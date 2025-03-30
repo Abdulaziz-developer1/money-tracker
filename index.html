@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Money Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Money Tracker</h1>
+        <div class="input-group">
+            <input type="text" id="description" placeholder="Description">
+            <input type="number" id="amount" placeholder="Amount (000 UZS)">
+            <button id="addTransaction">Add</button>
+        </div>
+        <ul id="transactionList" class="transaction-list"></ul>
+        <h2>Total: <span id="totalAmount">0</span> 000 UZS</h2>
+    </div>
+    <script src="js/storage.js"></script>
+    <script src="js/money.js"></script>
+</body>
+</html>
